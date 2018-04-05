@@ -16,4 +16,3 @@ Trabajo De Entornos
  - Ignacio Antón
  - Angel Albornoz
  - Óscar Masó
-  
