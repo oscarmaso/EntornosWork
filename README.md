@@ -3,6 +3,10 @@
 
 Trabajo De Entornos
 
+  Creación de un programa en Java recordando al viejo WarioWare.
+  
+  ## Juegos que seran implementados:
+  
 
 Trabajo realizado por:
 
