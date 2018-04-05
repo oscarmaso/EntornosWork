@@ -8,7 +8,7 @@ Trabajo De Entornos
   ## Juegos que seran implementados:
   
 
-Trabajo realizado por:
+### Trabajo realizado por:
 
  - Adrian González
  - Óscar Calderón 
