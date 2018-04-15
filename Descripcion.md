@@ -1,2 +1,2 @@
-# Descripción del proyecto
-## Una breve introducción de qué consiste.
+## Descripción del proyecto
+### Una breve introducción de qué consiste.
