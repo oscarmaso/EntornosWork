@@ -18,9 +18,9 @@ Trabajo De Entornos
  - Óscar Masó
 
 |Trabajo Realizado |
-|-------|--------------|
+|--------------|
 | Adrian González |
-| Óscar Calderón /
+| Óscar Calderón 
 | Antonio Porcel
 | Ignacio Antón
 | Angel Albornoz
