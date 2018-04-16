@@ -1,9 +1,6 @@
+# EntornosWork
 ![Fondo Trabajo](./Images/Fondo.png)
 ![Icono Juego](./Images/Icono.png)
-# EntornosWork
-
-
-Trabajo De Entornos
 
   Creación de un programa en Java recordando al viejo WarioWare.
   
