@@ -37,13 +37,14 @@ public class interface1 extends javax.swing.JFrame {
 
         jLabelFondo.setBackground(new java.awt.Color(1, 1, 1));
         jLabelFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagen1/Icono.png"))); // NOI18N
-        jLabelFondo.setBorder(javax.swing.BorderFactory.createCompoundBorder());
+        jLabelFondo.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         getContentPane().add(jLabelFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 870, 660));
 
         jButton2.setBackground(new java.awt.Color(70, 184, 243));
         jButton2.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
         jButton2.setText("Ver puntuaciones");
-        jButton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jButton2.setToolTipText("");
+        jButton2.setBorder(new javax.swing.border.MatteBorder(null));
         jButton2.setOpaque(true);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -54,6 +55,7 @@ public class interface1 extends javax.swing.JFrame {
 
         jButton1.setFont(new java.awt.Font("Ubuntu", 0, 10)); // NOI18N
         jButton1.setText("Elegir modo de juego");
+        jButton1.setBorder(new javax.swing.border.MatteBorder(null));
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 200, 140, 60));
 
         pack();
