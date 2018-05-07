@@ -54,11 +54,12 @@ public class interface1 extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 300, 140, 60));
 
-        jButton1.setFont(new java.awt.Font("Ubuntu", 0, 10)); // NOI18N
+        jButton1.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
         jButton1.setText("Elegir modo de juego");
         jButton1.setBorder(new javax.swing.border.MatteBorder(null));
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 100, 140, 60));
 
+        jButton3.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
         jButton3.setText("Salir");
         jButton3.setBorder(new javax.swing.border.MatteBorder(null));
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 500, 140, 60));
