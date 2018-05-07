@@ -31,13 +31,14 @@ public class interface1 extends javax.swing.JFrame {
         jLabelFondo = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabelFondo.setBackground(new java.awt.Color(1, 1, 1));
         jLabelFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagen1/Icono.png"))); // NOI18N
-        jLabelFondo.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
+        jLabelFondo.setBorder(null);
         getContentPane().add(jLabelFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 870, 660));
 
         jButton2.setBackground(new java.awt.Color(70, 184, 243));
@@ -51,12 +52,16 @@ public class interface1 extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 360, 140, 60));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 300, 140, 60));
 
         jButton1.setFont(new java.awt.Font("Ubuntu", 0, 10)); // NOI18N
         jButton1.setText("Elegir modo de juego");
         jButton1.setBorder(new javax.swing.border.MatteBorder(null));
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 200, 140, 60));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 100, 140, 60));
+
+        jButton3.setText("Salir");
+        jButton3.setBorder(new javax.swing.border.MatteBorder(null));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 500, 140, 60));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -103,6 +108,7 @@ public class interface1 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabelFondo;
     // End of variables declaration//GEN-END:variables
 }
