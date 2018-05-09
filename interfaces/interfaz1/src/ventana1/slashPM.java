@@ -73,7 +73,7 @@ public class slashPM extends javax.swing.JFrame implements Runnable{
     @Override
     public void run() {
         this.setVisible(true);
-        WindowsUtil.makeWindowsOpacity(this, 0.6f);
+        WindowsUtil.makeWindowsOpacity(this, 1f);
         try {
             for(int i=0; i<100; i++){
                 pbSplashScreen.setValue(i);
