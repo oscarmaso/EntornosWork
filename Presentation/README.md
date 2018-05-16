@@ -1,5 +1,3 @@
-![Fondo Trabajo](./Images/Fondo.png)
-
 |Trabajo Realizado |
 |--------------|
 | Adrian González |
