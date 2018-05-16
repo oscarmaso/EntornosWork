@@ -2,13 +2,9 @@ package pacman;
 
 import javax.swing.*;
 
-public class principal {
-    private JLabel principal;
+public class principioJuego {
+    private JPanel panel1;
     private JButton elegirModoJuegoButton;
     private JButton verPuntuacionesButton;
     private JButton salirButton;
-
-    private void createUIComponents() {
-        // TODO: place custom component creation code here
-    }
 }
