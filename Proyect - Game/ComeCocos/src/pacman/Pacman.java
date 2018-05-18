@@ -1,5 +1,3 @@
-
-
 package pacman;
 
 import java.awt.EventQueue;

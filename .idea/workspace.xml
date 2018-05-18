@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7c0d1af-711b-4103-9cf6-a9827f79b9d8" name="Default" comment="" />
+    <list default="true" id="65acb623-2549-4913-9c83-6fa93945681f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyect - Game/ComeCocos/src/pacman/Pacman.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyect - Game/ComeCocos/src/pacman/Pacman.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,75 +15,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Pacman.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pacman/Pacman.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tablero.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pacman/tablero.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="225">
-              <caret line="373" column="17" selection-start-line="373" selection-start-column="17" selection-end-line="373" selection-end-column="17" />
-=======
-            <state relative-caret-position="-2730">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
->>>>>>> Stashed changes
-            </state>
-          </provider>
+      <file leaf-file-name="Pacman.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Proyect - Game/ComeCocos/src/pacman/Pacman.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/pacman/tablero.java" />
-        <option value="$PROJECT_DIR$/src/Datos/Mapa" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-<<<<<<< Updated upstream
-  <component name="ProjectFrameBounds">
-    <option name="x" value="208" />
-    <option name="y" value="155" />
-    <option name="width" value="1380" />
-    <option name="height" value="992" />
-=======
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="389" />
     <option name="y" value="47" />
     <option name="width" value="1370" />
     <option name="height" value="999" />
->>>>>>> Stashed changes
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ComeCocos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EntornosWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EntornosWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EntornosWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EntornosWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyect - Game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EntornosWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EntornosWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyect - Game" type="462c0819:PsiDirectoryNode" />
               <item name="ComeCocos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ComeCocos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EntornosWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EntornosWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyect - Game" type="462c0819:PsiDirectoryNode" />
               <item name="ComeCocos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ComeCocos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EntornosWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EntornosWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyect - Game" type="462c0819:PsiDirectoryNode" />
               <item name="ComeCocos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pacman" type="462c0819:PsiDirectoryNode" />
@@ -89,10 +75,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -107,17 +91,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Pacman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pacman.Pacman" />
-      <module name="ComeCocos" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pacman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -159,43 +132,33 @@
       <properties />
       <listeners />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Pacman" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a7c0d1af-711b-4103-9cf6-a9827f79b9d8" name="Default" comment="" />
-      <created>1526630551603</created>
+      <changelist id="65acb623-2549-4913-9c83-6fa93945681f" name="Default" comment="" />
+      <created>1526630511461</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1526630551603</updated>
+      <updated>1526630511461</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< Updated upstream
-    <frame x="208" y="155" width="1380" height="992" extended-state="0" />
-=======
-    <frame x="0" y="28" width="1920" height="1018" extended-state="7" />
->>>>>>> Stashed changes
+    <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.07753706" />
-      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
@@ -218,36 +181,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pacman/Pacman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Datos/Mapa">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/javax/swing/JComponent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/tablero.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="225">
-          <caret line="373" column="17" selection-start-line="373" selection-start-column="17" selection-end-line="373" selection-end-column="17" />
-=======
-        <state relative-caret-position="-2730">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
->>>>>>> Stashed changes
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Proyect - Game/ComeCocos/src/pacman/Pacman.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
