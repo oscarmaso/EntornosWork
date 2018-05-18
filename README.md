@@ -5,10 +5,20 @@
 > Basaremos el resultado de la partida en la suma de las puntuaciones de ambos juegos y guardaremos dicha puntuación en un apartado de la interfaz visible para añadir competitividad al emulador.
 
 ## Updates:
+
+Version 1.01  
+  - **Juegos**
+     * Cambio de imagenes [Finish]
+     * Cambio de las velocidades del juego [Progress]
+  - **Interfaze**
+     * Programacion interfaz [Finish]
+     * Programacion pantalla de carga [Finish]
+     * Union Interfaz Juego [Progress]
+
 Versión 0 - Proyecto:
   - **Juegos**
-     * Creación del Mapa
-     ```[JAVA]
+     * Creación del Mapa [Finish]
+     ```[JAVA Matriz] 
          private final short datosdelnivel[] = {
             19, 18, 26, 26, 26, 18, 18, 18, 18, 18, 26, 26, 26, 18, 22,
             17, 20, 19, 18, 18, 20, 17, 16, 20, 17, 18, 18, 22, 17, 20,
@@ -27,12 +37,11 @@ Versión 0 - Proyecto:
             25, 24, 26, 26, 26, 24, 24, 24, 24, 24, 26, 26, 26, 24, 28
     };    
     ```
-     * Programación del Codigo
-     * Lectura de El Codigo
-     * Prueba del Programa
+     * Programación del Codigo [Progress]
+     * Lectura de El Codigo [Finish]
+     * Prueba del Programa  [Finish]
      
   - **Interfaze**
-     * Creación de Fondos
-     * Creación de Botones
-     * Pantalla de Carga
-     * Movimiento en Menus
+     * Creación de Fondos  [Finish]
+     * Creación de Botones [Finish]
+     * Movimiento en Menus [Finish]
