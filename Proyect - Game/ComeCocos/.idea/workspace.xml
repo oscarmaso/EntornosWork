@@ -24,8 +24,8 @@
       <file leaf-file-name="tablero.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pacman/tablero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="555" column="78" selection-start-line="555" selection-start-column="78" selection-end-line="555" selection-end-column="78" />
+            <state relative-caret-position="225">
+              <caret line="373" column="17" selection-start-line="373" selection-start-column="17" selection-end-line="373" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -49,8 +49,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="377" />
-    <option name="y" value="109" />
+    <option name="x" value="208" />
+    <option name="y" value="155" />
     <option name="width" value="1380" />
     <option name="height" value="992" />
   </component>
@@ -181,7 +181,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="377" y="109" width="1380" height="992" extended-state="1" />
+    <frame x="208" y="155" width="1380" height="992" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -278,8 +279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pacman/tablero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="555" column="78" selection-start-line="555" selection-start-column="78" selection-end-line="555" selection-end-column="78" />
+        <state relative-caret-position="225">
+          <caret line="373" column="17" selection-start-line="373" selection-start-column="17" selection-end-line="373" selection-end-column="17" />
         </state>
       </provider>
     </entry>

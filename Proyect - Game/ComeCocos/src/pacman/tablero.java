@@ -370,8 +370,8 @@ public class tablero extends JPanel implements ActionListener {
                 pacmandy = 0;
             }
         }
-        pacmanx = pacmanx + pacmanspeed * pacmandx;
-        pacmany = pacmany + pacmanspeed * pacmandy;
+        pacmanx += + pacmanspeed * pacmandx;
+        pacmany += + pacmanspeed * pacmandy;
     }
 
     private void dibujarPacman(Graphics2D g2d) {
