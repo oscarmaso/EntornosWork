@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="EdisoncorSx">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Interface/SplashScreen/lib/EdisoncorSx/TimingFramework.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Interface/SplashScreen/lib/EdisoncorSx/edisoncorSX.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

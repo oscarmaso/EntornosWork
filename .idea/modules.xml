@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EntornosWork.iml" filepath="$PROJECT_DIR$/EntornosWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proyect - Game/Coco+Inte/Coco+Inte.iml" filepath="$PROJECT_DIR$/Proyect - Game/Coco+Inte/Coco+Inte.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proyect - Game/ComeCocos/ComeCocos.iml" filepath="$PROJECT_DIR$/Proyect - Game/ComeCocos/ComeCocos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proyect - Game/Interface/SplashScreen/SplashScreen.iml" filepath="$PROJECT_DIR$/Proyect - Game/Interface/SplashScreen/SplashScreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proyect - Game/Interface/interfaz1/interfaz1.iml" filepath="$PROJECT_DIR$/Proyect - Game/Interface/interfaz1/interfaz1.iml" />
     </modules>
   </component>
 </project>

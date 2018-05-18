@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Coco+Inte/Coco+Inte.iml" filepath="$PROJECT_DIR$/Coco+Inte/Coco+Inte.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ComeCocos/ComeCocos.iml" filepath="$PROJECT_DIR$/ComeCocos/ComeCocos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interface/SplashScreen/SplashScreen.iml" filepath="$PROJECT_DIR$/Interface/SplashScreen/SplashScreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interface/interfaz1/interfaz1.iml" filepath="$PROJECT_DIR$/Interface/interfaz1/interfaz1.iml" />
+    </modules>
+  </component>
+</project>
