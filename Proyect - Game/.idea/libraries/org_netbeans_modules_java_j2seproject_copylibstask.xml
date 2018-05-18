@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="org-netbeans-modules-java-j2seproject-copylibstask">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/Interface/SplashScreen/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Interfaz1/SplashScreen/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
