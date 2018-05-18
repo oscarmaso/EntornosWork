@@ -8,40 +8,22 @@
 
 Version 1.01  
   - **Juegos**
-     * Cambio de imagenes [Finish]
-     * Cambio de las velocidades del juego [Progress]
-  - **Interfaze**
-     * Programacion interfaz [Finish]
-     * Programacion pantalla de carga [Finish]
-     * Union Interfaz Juego [Progress]
+     - [X] Cambio de imagenes                                                                          
+     - [ ] Cambio de las velocidades del juego                                                         
+     
+  - **Interfaz** ------------------------------------------------------------------------------------------------
+     - [X] Programación interfaz                                                                        
+     - [X] Programación pantalla de carga                                                               
+     - [ ] Unión Interfaz Juego                                                                         
 
 Versión 0 - Proyecto:
   - **Juegos**
-     * Creación del Mapa [Finish]
-     ```[JAVA Matriz] 
-         private final short datosdelnivel[] = {
-            19, 18, 26, 26, 26, 18, 18, 18, 18, 18, 26, 26, 26, 18, 22,
-            17, 20, 19, 18, 18, 20, 17, 16, 20, 17, 18, 18, 22, 17, 20,
-            21, 21, 17, 16, 16, 20, 17, 16, 20, 17, 16, 16, 20, 21, 21,
-            21, 25, 28, 17, 16, 20, 17, 16, 20, 17, 16, 20, 25, 28, 21,
-            17, 18, 26, 24, 24, 20, 17, 16, 20, 17, 24, 24, 26, 18, 20,
-            17, 20, 19, 26, 26, 16, 16, 16, 16, 16, 26, 26, 22, 17, 20,
-            17, 20, 21, 19, 18, 24, 24, 24, 24, 24, 18, 22, 21, 17, 20,
-            17, 20, 21, 17, 16, 26, 26, 26, 26, 26, 16, 20, 21, 17, 20,
-            17, 20, 21, 25, 24, 18, 18, 18, 18, 18, 24, 28, 21, 17, 20,
-            17, 20, 25, 26, 26, 16, 16, 16, 16, 16, 26, 26, 28, 17, 20,
-            17, 24, 26, 18, 18, 20, 17, 16, 20, 17, 18, 18, 26, 24, 20,
-            21, 19, 22, 17, 16, 20, 17, 16, 20, 17, 16, 20, 19, 22, 21,
-            21, 21, 17, 16, 16, 20, 17, 16, 20, 17, 16, 16, 20, 21, 21,
-            17, 20, 25, 24, 24, 20, 17, 16, 20, 17, 24, 24, 28, 17, 20,
-            25, 24, 26, 26, 26, 24, 24, 24, 24, 24, 26, 26, 26, 24, 28
-    };    
-    ```
-     * Programación del Codigo [Progress]
-     * Lectura de El Codigo [Finish]
-     * Prueba del Programa  [Finish]
+     - [X] Creación del Mapa                                                                            
+     - [X] Programación del Codigo                                                                      
+     - [X] Lectura de El Codigo                                                                         
+     - [X] Prueba del Programa                                                                          
      
-  - **Interfaze**
-     * Creación de Fondos  [Finish]
-     * Creación de Botones [Finish]
-     * Movimiento en Menus [Finish]
+  - **Interfaz** ------------------------------------------------------------------------------------------------
+     - [X] Creación de Fondos                                                                           
+     - [X] Creación de Botones                                                                          
+     - [X] Movimiento en Menus                                                                          
