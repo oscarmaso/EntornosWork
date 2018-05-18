@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 import java.awt.EventQueue;
 
 public class principioJuego {
-    private JPanel panel1;
+    public JPanel panel1;
     private JButton elegirModoJuegoButton;
     private JButton verPuntuacionesButton;
     private JButton salirButton;
@@ -17,13 +17,21 @@ public class principioJuego {
         elegirModoJuegoButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-
+            JFrame elegir_juego = new JFrame("elegirjuego");
+            elegir_juego.setContentPane(new elegirjuego().panel1);
+            elegir_juego.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            elegir_juego.pack();
+            elegir_juego.setVisible(true);
             }
         });
         verPuntuacionesButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-
+                JFrame puntuaciones = new JFrame("puntuaciones");
+                puntuaciones.setContentPane(new puntuaciones().panel1);
+                puntuaciones.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                puntuaciones.pack();
+                puntuaciones.setVisible(true);
             }
         });
         salirButton.addActionListener(new ActionListener() {
@@ -34,15 +42,11 @@ public class principioJuego {
         });
     }
 
-    /*public static void main(String[] args) {
-
-        EventQueue.invokeLater(new Runnable() {
-
-            @Override
-            public void run() {
-                principioJuego principio = new principioJuego();
-                principio.setVisible(true);
-            }
-        });
-    }*/
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("principioJuego");
+        frame.setContentPane(new principioJuego().panel1);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
+    }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7c0d1af-711b-4103-9cf6-a9827f79b9d8" name="Default" comment="" />
+    <list default="true" id="264b8ed5-f074-42d8-84b9-af663803237c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,26 +11,66 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Pacman.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pacman/Pacman.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="principioJuego.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pacman/principioJuego.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file leaf-file-name="principioJuego.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pacman/principioJuego.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="420">
+              <caret line="33" column="46" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="33" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tablero.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="elegirjuego.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pacman/elegirjuego.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file leaf-file-name="puntuaciones.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pacman/puntuaciones.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="23" column="43" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="23" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="puntuaciones.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pacman/puntuaciones.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file leaf-file-name="elegirjuego.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pacman/elegirjuego.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pacman.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pacman/Pacman.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tablero.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pacman/tablero.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="225">
-              <caret line="373" column="17" selection-start-line="373" selection-start-column="17" selection-end-line="373" selection-end-column="17" />
-=======
-            <state relative-caret-position="-2730">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
->>>>>>> Stashed changes
+            <state relative-caret-position="60">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -40,59 +80,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pacman/tablero.java" />
-        <option value="$PROJECT_DIR$/src/Datos/Mapa" />
+        <option value="$PROJECT_DIR$/src/pacman/Pacman.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/pacman/principioJuego.java" />
+        <option value="$PROJECT_DIR$/src/pacman/puntuaciones.java" />
+        <option value="$PROJECT_DIR$/src/pacman/elegirjuego.java" />
       </list>
     </option>
   </component>
-<<<<<<< Updated upstream
-  <component name="ProjectFrameBounds">
-    <option name="x" value="208" />
-    <option name="y" value="155" />
-    <option name="width" value="1380" />
-    <option name="height" value="992" />
-=======
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="389" />
-    <option name="y" value="47" />
-    <option name="width" value="1370" />
-    <option name="height" value="999" />
->>>>>>> Stashed changes
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="27" />
+    <option name="width" value="1285" />
+    <option name="height" value="674" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ComeCocos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComeCocos" type="462c0819:PsiDirectoryNode" />
+              <item name="Coco+Inte" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coco+Inte" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ComeCocos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComeCocos" type="462c0819:PsiDirectoryNode" />
+              <item name="Coco+Inte" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coco+Inte" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ComeCocos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComeCocos" type="462c0819:PsiDirectoryNode" />
+              <item name="Coco+Inte" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coco+Inte" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pacman" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coco+Inte" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coco+Inte" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pacman" type="462c0819:PsiDirectoryNode" />
+              <item name="elegirjuego" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="Coco+Inte" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coco+Inte" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pacman" type="462c0819:PsiDirectoryNode" />
+              <item name="puntuaciones" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -107,8 +153,11 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Pacman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pacman.Pacman" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="principioJuego" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pacman.principioJuego" />
       <module name="ComeCocos" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -117,9 +166,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -161,7 +207,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Pacman" />
+        <item itemvalue="Application.principioJuego" />
       </list>
     </recent_temporary>
   </component>
@@ -170,82 +216,131 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a7c0d1af-711b-4103-9cf6-a9827f79b9d8" name="Default" comment="" />
-      <created>1526630551603</created>
+      <changelist id="264b8ed5-f074-42d8-84b9-af663803237c" name="Default" comment="" />
+      <created>1526673602220</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1526630551603</updated>
+      <updated>1526673602220</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< Updated upstream
-    <frame x="208" y="155" width="1380" height="992" extended-state="0" />
-=======
-    <frame x="0" y="28" width="1920" height="1018" extended-state="7" />
->>>>>>> Stashed changes
-    <editor active="true" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32905984" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.07753706" />
-      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/pacman/principioJuego.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pacman/elegirjuego.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pacman/Pacman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Datos/Mapa">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/javax/swing/JComponent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pacman/tablero.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="225">
-          <caret line="373" column="17" selection-start-line="373" selection-start-column="17" selection-end-line="373" selection-end-column="17" />
-=======
-        <state relative-caret-position="-2730">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
->>>>>>> Stashed changes
+        <state relative-caret-position="60">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pacman/principioJuego.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pacman/tablero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pacman/principioJuego.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pacman/elegirjuego.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pacman/principioJuego.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="46" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pacman/Pacman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pacman/puntuaciones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pacman/puntuaciones.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pacman/elegirjuego.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
         </state>
       </provider>
     </entry>
