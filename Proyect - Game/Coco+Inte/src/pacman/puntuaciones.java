@@ -27,7 +27,7 @@ public class puntuaciones {
         salirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-
+            System.exit(0);
             }
         });
     }
