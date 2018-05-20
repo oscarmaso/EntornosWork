@@ -23,7 +23,8 @@ public class elegirjuego {
         pacmanButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-
+                JFrame pacman = new Pacman();
+                pacman.setVisible(true);
             }
         });
         contrarrelojButton.addActionListener(new ActionListener() {
