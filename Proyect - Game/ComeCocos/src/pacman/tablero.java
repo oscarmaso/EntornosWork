@@ -14,6 +14,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.lang.Thread;
 
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
@@ -51,6 +52,7 @@ public class tablero extends JPanel implements ActionListener {
     private Image pacman1, pacman2up, pacman2left, pacman2right, pacman2down;
     private Image pacman3up, pacman3down, pacman3left, pacman3right;
     private Image pacman4up, pacman4down, pacman4left, pacman4right;
+    private Image Muerte1, Muerte2,Muerte3,Muerte4, Muerte5 ,Muerte6 ,Muerte7, Muerte8, Muerte9;
 
     private int pacmanx, pacmany, pacmandx, pacmandy;
     private int reqdx, reqdy, viewdx, viewdy;
@@ -136,7 +138,7 @@ public class tablero extends JPanel implements ActionListener {
 
         if (dying) {
 
-            Muerte();
+            Muerte(g2d);
 
         } else {
 
@@ -208,10 +210,10 @@ public class tablero extends JPanel implements ActionListener {
         }
     }
 
-    private void Muerte() {//murio
+    private void Muerte(Graphics2D g2d) {//murio
 
         pacsleft--;
-
+        AnimacionMuerte(g2d);
         if (pacsleft == 0) {
             ingame = false;
         }
@@ -339,8 +341,8 @@ public class tablero extends JPanel implements ActionListener {
                 pacmandy = 0;
             }
         }
-        pacmanx += + pacmanspeed * pacmandx;
-        pacmany += + pacmanspeed * pacmandy;
+        pacmanx += pacmanspeed * pacmandx;
+        pacmany += pacmanspeed * pacmandy;
     }
 
     private void dibujarPacman(Graphics2D g2d) {
@@ -467,7 +469,57 @@ public class tablero extends JPanel implements ActionListener {
             }
         }
     }
+    private void AnimacionMuerte (Graphics2D g2d){
+        //falta implementar la funcion, hay que añadirla a la funcion muerte y configurar dicha funcion
+        //para que actualize la imagen del juego y asi muestre como muere en el juego
+        for (int i = 1; i<=11;i++) {
+            pacmanx = 7 * blocksize;
+            pacmany = 11 * blocksize;
+          try {
+              Thread.sleep(100);
+          } catch (Exception e) {
+          }
+          switch (i) {
+              case 1:
+                  g2d.drawImage(pacman2up, pacmanx + 1, pacmany + 1, this);
+                  break;
+              case 2:
+                  g2d.drawImage(pacman3up, pacmanx + 1, pacmany + 1, this);
+                  break;
+              case 3:
+                  g2d.drawImage(Muerte1, pacmanx + 1, pacmany + 1, this);
+                  break;
+              case 4:
+                  g2d.drawImage(Muerte2, pacmanx + 1, pacmany + 1, this);
+                  break;
+              case 5:
+                  g2d.drawImage(Muerte3, pacmanx + 1, pacmany + 1, this);
+                  break;
+              case 6:
+                  g2d.drawImage(Muerte4, pacmanx + 1, pacmany + 1, this);
+                  break;
+              case 7:
+                  g2d.drawImage(Muerte5, pacmanx + 1, pacmany + 1, this);
+                  break;
+              case 8:
+                  g2d.drawImage(Muerte6, pacmanx + 1, pacmany + 1, this);
+                  break;
+              case 9:
+                  g2d.drawImage(Muerte7, pacmanx + 1, pacmany + 1, this);
+                  break;
+              case 10:
+                  g2d.drawImage(Muerte8, pacmanx + 1, pacmany + 1, this);
+                  break;
+              case 11:
+                  g2d.drawImage(Muerte9, pacmanx + 1, pacmany + 1, this);
+                  break;
+              default:
+                  g2d.drawImage(pacman1, pacmanx + 1, pacmany + 1, this);
+                  break;
+          }
+      }
 
+    }
     private void iniciarjuego() {
 
         pacsleft = 3;
@@ -536,6 +588,17 @@ public class tablero extends JPanel implements ActionListener {
         pacman2right = new ImageIcon(getClass().getResource("../imagenes/right1.png")).getImage();
         pacman3right = new ImageIcon(getClass().getResource("../imagenes/right2.png")).getImage();
         pacman4right = new ImageIcon(getClass().getResource("../imagenes/right3.png")).getImage();
+        Muerte1 = new ImageIcon(getClass().getResource("../imagenes/pacmanM1.png")).getImage();
+        Muerte2 = new ImageIcon(getClass().getResource("../imagenes/pacmanM2.png")).getImage();
+        Muerte3 = new ImageIcon(getClass().getResource("../imagenes/pacmanM3.png")).getImage();
+        Muerte4 = new ImageIcon(getClass().getResource("../imagenes/pacmanM4.png")).getImage();
+        Muerte5 = new ImageIcon(getClass().getResource("../imagenes/pacmanM5.png")).getImage();
+        Muerte6 = new ImageIcon(getClass().getResource("../imagenes/pacmanM6.png")).getImage();
+        Muerte7 = new ImageIcon(getClass().getResource("../imagenes/pacmanM7.png")).getImage();
+        Muerte8 = new ImageIcon(getClass().getResource("../imagenes/pacmanM8.png")).getImage();
+        Muerte9 = new ImageIcon(getClass().getResource("../imagenes/pacmanM9.png")).getImage();
+
+
 
     }
 
