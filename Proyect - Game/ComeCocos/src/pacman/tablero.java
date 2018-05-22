@@ -36,13 +36,14 @@ public class tablero extends JPanel implements ActionListener {
     private final int nrofblocks = 15;
     private final int scrsize = nrofblocks * blocksize;
     private final int pacanimdelay = 2;
-    private final int pacmananimcount = 4;
+    private final int pacmananimcount = 4;;
     private final int maxghosts = 12;
     private final int pacmanspeed = 6;
 
     private int pacanimcount = pacanimdelay;
     private int pacanimdir = 1;
     private int pacmananimpos = 0;
+    private int Contador = 0;
     private int nrofghosts = 6;
     private int pacsleft, score;
     private int[] dx, dy;
@@ -73,9 +74,9 @@ public class tablero extends JPanel implements ActionListener {
             21, 21, 17, 16, 16, 20, 17, 16, 20, 17, 16, 16, 20, 21, 21,
             17, 20, 25, 24, 24, 20, 17, 16, 20, 17, 24, 24, 28, 17, 20,
             25, 24, 26, 26, 26, 24, 24, 24, 24, 24, 26, 26, 26, 24, 28
-    };    
+    };
 
-    
+
     private final int validspeeds[] = {1, 2, 3, 4, 6, 8};
     private final int maximavelocidad = 6;
 
@@ -123,14 +124,27 @@ public class tablero extends JPanel implements ActionListener {
     private void doAnim() {
 
         pacanimcount--;
-
+        if (pacmananimpos>=4 || pacmananimpos<0)
+        {
+            pacmananimpos=0;
+            pacanimdir = 1;
+        }
         if (pacanimcount <= 0) {
             pacanimcount = pacanimdelay;
-            pacmananimpos = pacmananimpos + pacanimdir;
+            pacmananimpos += pacanimdir;
 
             if (pacmananimpos == (pacmananimcount - 1) || pacmananimpos == 0) {
                 pacanimdir = -pacanimdir;
             }
+        }
+    }
+    private void doAnimM() {
+
+        pacanimcount--;
+
+        if (pacanimcount <= 0) {
+            pacanimcount = pacanimdelay;
+            pacmananimpos += pacanimdir;
         }
     }
 
@@ -139,6 +153,9 @@ public class tablero extends JPanel implements ActionListener {
         if (dying) {
 
             Muerte(g2d);
+            pacmananimpos=0;
+            pacanimdir = 1;
+
 
         } else {
 
@@ -213,11 +230,12 @@ public class tablero extends JPanel implements ActionListener {
     private void Muerte(Graphics2D g2d) {//murio
 
         pacsleft--;
-        AnimacionMuerte(g2d);
+
         if (pacsleft == 0) {
             ingame = false;
+            pacmananimpos=0;
+            pacanimcount=3;
         }
-
         continuarnivel();
     }
 
@@ -359,7 +377,6 @@ public class tablero extends JPanel implements ActionListener {
     }
 
     private void Pacmanarriba(Graphics2D g2d) {
-
         switch (pacmananimpos) {
             case 1:
                 g2d.drawImage(pacman2up, pacmanx + 1, pacmany + 1, this);
@@ -376,7 +393,6 @@ public class tablero extends JPanel implements ActionListener {
                 break;
         }
     }
-
     private void Pacmanabajo(Graphics2D g2d) {
 
         switch (pacmananimpos) {
@@ -470,59 +486,47 @@ public class tablero extends JPanel implements ActionListener {
         }
     }
     private void AnimacionMuerte (Graphics2D g2d){
-        //falta implementar la funcion, hay que añadirla a la funcion muerte y configurar dicha funcion
-        //para que actualize la imagen del juego y asi muestre como muere en el juego
-        for (int i = 1; i<=11;i++) {
-            pacmanx = 7 * blocksize;
-            pacmany = 11 * blocksize;
-          try {
-              Thread.sleep(100);
-          } catch (Exception e) {
-          }
-          switch (i) {
-              case 1:
-                  g2d.drawImage(pacman2up, pacmanx + 1, pacmany + 1, this);
-                  break;
-              case 2:
-                  g2d.drawImage(pacman3up, pacmanx + 1, pacmany + 1, this);
-                  break;
-              case 3:
-                  g2d.drawImage(Muerte1, pacmanx + 1, pacmany + 1, this);
-                  break;
-              case 4:
-                  g2d.drawImage(Muerte2, pacmanx + 1, pacmany + 1, this);
-                  break;
-              case 5:
-                  g2d.drawImage(Muerte3, pacmanx + 1, pacmany + 1, this);
-                  break;
-              case 6:
-                  g2d.drawImage(Muerte4, pacmanx + 1, pacmany + 1, this);
-                  break;
-              case 7:
-                  g2d.drawImage(Muerte5, pacmanx + 1, pacmany + 1, this);
-                  break;
-              case 8:
-                  g2d.drawImage(Muerte6, pacmanx + 1, pacmany + 1, this);
-                  break;
-              case 9:
-                  g2d.drawImage(Muerte7, pacmanx + 1, pacmany + 1, this);
-                  break;
-              case 10:
-                  g2d.drawImage(Muerte8, pacmanx + 1, pacmany + 1, this);
-                  break;
-              case 11:
-                  g2d.drawImage(Muerte9, pacmanx + 1, pacmany + 1, this);
-                  break;
-              default:
-                  g2d.drawImage(pacman1, pacmanx + 1, pacmany + 1, this);
-                  break;
-          }
-      }
+
+        switch (pacmananimpos) {
+            case 1:
+                g2d.drawImage(pacman2up, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 2:
+                g2d.drawImage(pacman3up, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 3:
+                g2d.drawImage(Muerte1, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 4:
+                g2d.drawImage(Muerte2, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 5:
+                g2d.drawImage(Muerte3, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 6:
+                g2d.drawImage(Muerte4, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 7:
+                g2d.drawImage(Muerte5, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 8:
+                g2d.drawImage(Muerte6, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 9:
+                g2d.drawImage(Muerte7, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 10:
+                g2d.drawImage(Muerte8, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 11:
+                g2d.drawImage(Muerte9, pacmanx + 1, pacmany + 1, this);
+                break;}
 
     }
+
     private void iniciarjuego() {
 
-        pacsleft = 3;
+        pacsleft = 1;
         score = 0;
         initLevel();
         nrofghosts = 4;
@@ -618,12 +622,26 @@ public class tablero extends JPanel implements ActionListener {
 
         drawMaze(g2d);
         dibujarpuntuacion(g2d);
-        doAnim();
+        if (ingame) {
+            doAnim();
+        }
 
         if (ingame) {
+            if (pacmananimpos>5)
+            {
+                pacmananimpos=0;
+                pacanimdir=1;
+            }
             playGame(g2d);
+            Contador++;
         } else {
-            showIntroScreen(g2d);
+
+            if (pacmananimpos<12 && Contador!=0){
+                doAnimM();
+                AnimacionMuerte(g2d);}
+            else {
+                showIntroScreen(g2d);
+            }
         }
 
         g2d.drawImage(ii, 5, 5, this);
@@ -635,7 +653,7 @@ public class tablero extends JPanel implements ActionListener {
 
         @Override
         public void keyPressed(KeyEvent e) {
-        //configuración del teclado
+            //configuración del teclado
             int key = e.getKeyCode();
 
             if (ingame) {
