@@ -1,5 +1,11 @@
 ## Updates:
 
+
+Version 1.03  
+  - **Juegos**
+     - [X] Solución de errores menores
+     - [X] Añadido imagenes de fruta y de fantasmas comidos
+     - [X] Implementado la Animación de Muerte para el Pacman
 Version 1.02  
   - **Juegos**
      - [X] Refactoricación del código 
