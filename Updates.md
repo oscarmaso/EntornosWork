@@ -13,6 +13,10 @@ Version 1.03
      - [X] Solución de errores menores
      - [X] Añadido imagenes de fruta y de fantasmas comidos
      - [X] Implementado la Animación de Muerte para el Pacman
+     - [X] render
+     - [x] Funcionamiento del juego
+
+     
      
 Version 1.02  
 
@@ -26,7 +30,9 @@ Version 1.01
 
   - **Juegos**
      - [X] Cambio de imagenes                                                                          
-     - [ ] Cambio de las velocidades del juego                                                         
+     - [ ] Cambio de las velocidades del juego
+     - [X] Creacion de la pantalla del flappy bird
+     - [X] Creacion de las imagenes juego flappy bird
      
   - **Interfaz** 
      - [X] Programación interfaz                                                                        
