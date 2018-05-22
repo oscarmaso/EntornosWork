@@ -1,4 +1,4 @@
-package flappyBird;
+package pacman;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -21,8 +21,6 @@ public class  FlappyBird implements ActionListener, MouseListener, KeyListener
 {
     
     //variables
-    
-    public static FlappyBird flappyBird;
     public final int WIDTH = 800, HEIGHT = 800; //tamaño de la ventana
     public Renderer renderer; //
     public Rectangle bird; // flappy
@@ -30,12 +28,13 @@ public class  FlappyBird implements ActionListener, MouseListener, KeyListener
     public int ticks, yMotion, score;
     public boolean gameOver, started;
     public Random rand;
+    public JFrame jframe;
 
-public FlappyBird() //el main llama a esta para que se ejecute
+    public FlappyBird() //el main llama a esta para que se ejecute
 {                //caracetristicas de la ventana en la que se ejecuta el juego
-    JFrame jframe = new JFrame(); //crea una ventana
+    jframe = new JFrame(); //crea una ventana
     Timer timer = new Timer(20, this); //hace que el repaint de action performed actue durante el tiempo indicado
-    renderer = new Renderer();
+    renderer = new Renderer(this);
     rand = new Random();
     jframe.add(renderer);
     jframe.setTitle("Flappy Bird"); //titulo que aparecera en la barra de arriba del programa
@@ -206,10 +205,7 @@ public void repaint(Graphics g)
     }
 }
 
-public static void main(String[] args)
-{
-    flappyBird = new FlappyBird();
-}
+
 @Override
 
 public void mouseClicked(MouseEvent e)

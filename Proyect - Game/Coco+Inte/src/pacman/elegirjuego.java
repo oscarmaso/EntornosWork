@@ -1,5 +1,7 @@
 package pacman;
 
+import sun.nio.ch.ThreadPool;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -17,7 +19,13 @@ public class elegirjuego {
         flappyBirdButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-
+                Thread thread = new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        new FlappyBird();
+                    }
+                });
+                thread.start();
             }
         });
         pacmanButton.addActionListener(new ActionListener() {
