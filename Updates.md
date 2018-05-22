@@ -1,5 +1,9 @@
 ## Updates:
-
+Version 1.04
+  - **Interfaz**
+    - [X] Unión interfaz con el juego pacman mediante botones.
+    - [X] Unión interfaz con el juego flappy bird mediante botones.
+    - [X] Movimiento entre menús.
 
 Version 1.03  
   - **Juegos**
