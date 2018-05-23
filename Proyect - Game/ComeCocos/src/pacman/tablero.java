@@ -647,6 +647,11 @@ public class tablero extends JPanel implements ActionListener {
         viewdx = -1;
         viewdy = 0;
         dying = false;
+        Cfruta=false;
+        for (int X = 0; X<maxghosts; X++){
+            Contador2[X] = 0;
+            ContadorFinal[X] = 0;
+        }
     }
 
     private void CargarImagenes() {
