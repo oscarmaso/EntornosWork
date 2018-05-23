@@ -1,4 +1,13 @@
 ## Updates:
+Version 1.05  
+
+  - **Juegos**
+     - [X] Solución de errores menores
+     - [X] Se ha configurado el juego para que se pueda comer a los fantasmas
+     - [X] Fruta implementada en el juego
+     - [X] Añadido nuevas animaciones de fantasma
+     - [x] Añadido nuevas imagenes para fantasma y para fruta
+     
 Version 1.04
 
   - **Interfaz**
