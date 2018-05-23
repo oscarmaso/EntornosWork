@@ -1,7 +1,625 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b796d5ad-04c5-4b95-adc1-606ce2d1817a" name="Default" comment="" />
+    <list default="true" id="b796d5ad-04c5-4b95-adc1-606ce2d1817a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../../EntornosWork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Images/Fondo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Presentation/Datos/Descripcion.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Presentation/Datos/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Presentation/Entornos de Desarrollo.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/EdisoncorSx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/junit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/junit_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/org_netbeans_modules_java_j2seproject_copylibstask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.mylyn/.taskListIndex/segments_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.mylyn/.taskListIndex/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.resources/.history/31/00fb9033625300181628c9a0066c0ecf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.resources/.projects/Java/_markers.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.resources/.projects/Java/_syncinfo.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.resources/.root/_markers.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.resources/0.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/http-cache.lucene60/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.cfe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.cfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.si" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/segments_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/1089239932.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/1628687906.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/2078267704.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/2253745042.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/2359322674.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/2744878784.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/3066711521.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/3485262699.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/3512161136.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/3530540584.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/3539432263.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/3883508318.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/502732891.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/5990989.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/813341167.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/821608291.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/925982370.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/index.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.launching/_install.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.8.2.20171007-0217.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.ui.intro/introstate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/_lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/Coco+Inte.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/ComeCocos - Juegos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/ComeCocos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/Icono.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/carga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/cargabird.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/down1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/down2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/down3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/ghost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/left1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/left2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/left3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/pacman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/right1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/right2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/right3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/up1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/up2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/imagenes/up3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/pacman/Pacman$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/pacman/Pacman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/pacman/elegirjuego.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/pacman/finaljuego.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/pacman/principioJuego$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/pacman/principioJuego$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/pacman/principioJuego$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/pacman/principioJuego.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/pacman/puntuaciones.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/pacman/tablero$TAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos - Juegos/pacman/tablero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/Datos/Mapa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/Icono.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/carga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/cargabird.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/down1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/down2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/down3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/ghost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/left1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/left2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/left3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/pacman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/pacmanM1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/pacmanM2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/pacmanM3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/pacmanM4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/pacmanM5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/pacmanM6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/pacmanM7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/pacmanM8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/pacmanM9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/right1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/right2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/right3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/up1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/up2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/imagenes/up3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/.idea/pacman.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/Pacman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/elegirjuego$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/elegirjuego$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/elegirjuego$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/elegirjuego$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/elegirjuego.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/finaljuego.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/principioJuego$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/principioJuego$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/principioJuego$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/principioJuego.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/puntuaciones$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/puntuaciones$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/puntuaciones.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/tablero$TAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/pacman/tablero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/ComeCocos/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/imagenes/down1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/imagenes/down2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/imagenes/down3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/imagenes/ghost.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/imagenes/left1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/imagenes/left2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/imagenes/left3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/imagenes/pacman.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/imagenes/right1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/imagenes/right2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/imagenes/right3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/imagenes/up1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/imagenes/up2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/imagenes/up3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/pacman/Pacman$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/pacman/Pacman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/pacman/tablero$TAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/JUEGOS/pacman/tablero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/imagenes/down1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/imagenes/down2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/imagenes/down3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/imagenes/ghost.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/imagenes/left1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/imagenes/left2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/imagenes/left3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/imagenes/pacman.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/imagenes/right1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/imagenes/right2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/imagenes/right3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/imagenes/up1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/imagenes/up2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/imagenes/up3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/pacman/Pacman$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/pacman/Pacman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/pacman/tablero$TAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled/pacman/tablero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled104/imagenes/down1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled104/imagenes/down2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled104/imagenes/down3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled104/imagenes/ghost.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled104/imagenes/left1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled104/imagenes/left2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled104/imagenes/left3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled104/imagenes/pacman.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled104/imagenes/right1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled104/imagenes/right2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled104/imagenes/right3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled104/imagenes/up1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled104/imagenes/up2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled104/imagenes/up3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/imagenes/down1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/imagenes/down2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/imagenes/down3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/imagenes/ghost.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/imagenes/left1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/imagenes/left2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/imagenes/left3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/imagenes/pacman.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/imagenes/right1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/imagenes/right2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/imagenes/right3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/imagenes/up1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/imagenes/up2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/imagenes/up3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/pacman/Pacman$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/pacman/Pacman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/pacman/tablero$TAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/out/production/untitled2/pacman/tablero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/Datos/Mapa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/Icono.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/carga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/cargabird.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/down1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/down2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/down3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/ghost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/left1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/left2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/left3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/pacman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/pacmanM1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/pacmanM2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/pacmanM3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/pacmanM4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/pacmanM5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/pacmanM6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/pacmanM7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/pacmanM8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/pacmanM9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/right1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/right2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/right3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/up1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/up2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/imagenes/up3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/pacman/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/pacman/.idea/pacman.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/pacman/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/pacman/Pacman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/pacman/elegirjuego.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/pacman/elegirjuego.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/pacman/finaljuego.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/pacman/finaljuego.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/pacman/principioJuego.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/pacman/principioJuego.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/pacman/puntuaciones.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/pacman/puntuaciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/pacman/tablero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coco+Inte/src/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.mylyn/.taskListIndex/segments_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.mylyn/.taskListIndex/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/31/00fb9033625300181628c9a0066c0ecf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Java/_markers.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Java/_syncinfo.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/_markers.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/0.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/http-cache.lucene60/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.cfe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.cfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.si" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/segments_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1089239932.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1628687906.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/2078267704.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/2253745042.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/2359322674.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/2744878784.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/3066711521.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/3485262699.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/3512161136.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/3530540584.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/3539432263.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/3883508318.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/502732891.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/5990989.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/813341167.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/821608291.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/925982370.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/index.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.launching/_install.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.8.2.20171007-0217.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.intro/introstate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/_lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComeCocos - Juegos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComeCocos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/Icono.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/carga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/cargabird.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/down1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/down2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/down3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/ghost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/left1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/left2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/left3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/pacman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/right1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/right2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/right3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/up1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/up2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos - Juegos/imagenes/up3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/Datos/Mapa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/down1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/down2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/down3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/ghost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/left1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/left2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/left3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/pacman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/pacmanM1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/pacmanM2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/pacmanM3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/pacmanM4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/pacmanM5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/pacmanM6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/pacmanM7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/pacmanM8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/pacmanM9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/right1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/right2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/right3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/up1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/up2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/imagenes/up3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/pacman/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/pacman/.idea/pacman.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/pacman/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/pacman/Pacman$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/pacman/Pacman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/pacman/tablero$TAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/pacman/tablero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ComeCocos/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/imagenes/down1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/imagenes/down2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/imagenes/down3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/imagenes/ghost.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/imagenes/left1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/imagenes/left2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/imagenes/left3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/imagenes/pacman.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/imagenes/right1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/imagenes/right2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/imagenes/right3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/imagenes/up1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/imagenes/up2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/imagenes/up3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/pacman/Pacman$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/pacman/Pacman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/pacman/tablero$TAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JUEGOS/pacman/tablero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/imagenes/down1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/imagenes/down2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/imagenes/down3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/imagenes/ghost.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/imagenes/left1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/imagenes/left2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/imagenes/left3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/imagenes/pacman.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/imagenes/right1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/imagenes/right2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/imagenes/right3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/imagenes/up1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/imagenes/up2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/imagenes/up3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/pacman/Pacman$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/pacman/Pacman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/pacman/tablero$TAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/pacman/tablero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/imagenes/down1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/imagenes/down2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/imagenes/down3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/imagenes/ghost.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/imagenes/left1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/imagenes/left2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/imagenes/left3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/imagenes/pacman.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/imagenes/right1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/imagenes/right2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/imagenes/right3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/imagenes/up1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/imagenes/up2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/imagenes/up3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/imagenes/down1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/imagenes/down2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/imagenes/down3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/imagenes/ghost.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/imagenes/left1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/imagenes/left2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/imagenes/left3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/imagenes/pacman.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/imagenes/right1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/imagenes/right2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/imagenes/right3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/imagenes/up1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/imagenes/up2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/imagenes/up3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/pacman/Pacman$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/pacman/Pacman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/pacman/tablero$TAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled2/pacman/tablero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Datos/Mapa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/down1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/down2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/down3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/ghost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/left1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/left2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/left3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/pacman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/pacmanM1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/pacmanM2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/pacmanM3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/pacmanM4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/pacmanM5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/pacmanM6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/pacmanM7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/pacmanM8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/pacmanM9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/right1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/right2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/right3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/up1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/up2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/up3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pacman/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pacman/.idea/pacman.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pacman/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pacman/Pacman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pacman/tablero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/SplashScreen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/lib/EdisoncorSx/TimingFramework.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/lib/EdisoncorSx/edisoncorSX.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/lib/junit/junit-3.8.2-api.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/lib/junit/junit-3.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/lib/junit_4/junit-4.5-api.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/lib/junit_4/junit-4.5-src.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/lib/junit_4/junit-4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/lib/nblibraries.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/src/img/cargapacman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/src/pacman_carga/FSplashScreen.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/src/pacman_carga/FSplashScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/src/pacman_carga/pbSlashScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/SplashScreen/src/splashscreen/SplashScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/built-jar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/classes/imagen1/Icono.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/classes/imagen1/carga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/classes/ventana1/interface1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/classes/ventana1/interface1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/classes/ventana1/interface1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/classes/ventana1/interface1.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/classes/ventana1/modojuegoIF$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/classes/ventana1/modojuegoIF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/classes/ventana1/modojuegoIF.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/classes/ventana1/puntuaciones$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/classes/ventana1/puntuaciones.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/classes/ventana1/puntuaciones.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/classes/ventana1/slashPM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/build/classes/ventana1/slashPM.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/interfaz1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/nbproject/private/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/src/imagen1/Icono.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/src/imagen1/carga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/src/ventana1/interface1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/src/ventana1/interface1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/src/ventana1/interface1.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/src/ventana1/interface1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/src/ventana1/modojuegoIF.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/src/ventana1/modojuegoIF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/src/ventana1/puntuaciones.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/src/ventana1/puntuaciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/src/ventana1/slashPM.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaz1/interfaz1/src/ventana1/slashPM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Updates.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../no_hay_nada/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../old/cargabird.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../old/cargapacman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../old/interfaces/interfaz1/dist/README.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../old/interfaces/interfaz1/dist/interfaz1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../old/interfaces/interfaz1/dist/lib/AbsoluteLayout.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../old/interfaces/interfaz1/dist/lib/TimingFramework.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../old/interfaces/interfaz1/dist/lib/edisoncorSX.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/Datos/Mapa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/down1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/down2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/down3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/ghost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/left1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/left2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/left3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/pacman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/pacmanM1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/pacmanM2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/pacmanM3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/pacmanM4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/pacmanM5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/pacmanM6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/pacmanM7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/pacmanM8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/pacmanM9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/right1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/right2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/right3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/up1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/up2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/imagenes/up3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/pacman/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/pacman/.idea/pacman.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/pacman/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/pacman/Pacman$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/pacman/Pacman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/pacman/tablero$TAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/pacman/tablero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/ComeCocos/src.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,9 +633,8 @@
       <file leaf-file-name="ComeCocos - Juegos.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ComeCocos - Juegos.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="150">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -25,9 +642,8 @@
       <file leaf-file-name="Pacman.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pacman/Pacman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -35,21 +651,28 @@
       <file leaf-file-name="tablero.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pacman/tablero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="336">
+              <caret line="413" column="17" selection-start-line="413" selection-start-column="17" selection-end-line="413" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/pacman/tablero.java" />
+      </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="65" />
     <option name="y" value="27" />
     <option name="width" value="1285" />
@@ -71,6 +694,9 @@
     </navigator>
     <panes />
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -85,41 +711,20 @@
   </component>
   <component name="RunManager">
     <configuration name="Pacman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="pacman.Pacman" />
+      <module name="ComeCocos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pacman.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="pacman.Pacman" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ComeCocos" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -129,17 +734,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -152,26 +753,20 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Pacman" />
+      <list>
+        <item itemvalue="Application.Pacman" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -187,87 +782,107 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="27" width="1920" height="1018" extended-state="6" />
+    <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32887402" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32887402" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ComeCocos - Juegos.iml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pacman/Pacman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pacman/tablero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ComeCocos - Juegos.iml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pacman/Pacman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pacman/tablero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ComeCocos - Juegos.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pacman/Pacman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pacman/tablero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -281,52 +896,52 @@
     <entry file="file://$PROJECT_DIR$/src/pacman/Pacman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pacman/tablero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pacman/Pacman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pacman/tablero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ComeCocos - Juegos.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pacman/Pacman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pacman/tablero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="336">
+          <caret line="413" column="17" selection-start-line="413" selection-start-column="17" selection-end-line="413" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

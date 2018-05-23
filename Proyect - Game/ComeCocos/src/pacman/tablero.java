@@ -1,5 +1,7 @@
 package pacman;
 
+import sun.font.TrueTypeFont;
+
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -31,29 +33,31 @@ public class tablero extends JPanel implements ActionListener {
 
     private boolean ingame = false;
     private boolean dying = false;
+    private boolean Cfruta = false;
 
     private final int blocksize = 24;
     private final int nrofblocks = 15;
     private final int scrsize = nrofblocks * blocksize;
     private final int pacanimdelay = 2;
-    private final int pacmananimcount = 4;;
+    private final int pacmananimcount = 4;
     private final int maxghosts = 12;
     private final int pacmanspeed = 6;
 
     private int pacanimcount = pacanimdelay;
-    private int pacanimdir = 1;
+    private int pacanimdir = 1 ;
     private int pacmananimpos = 0;
     private int Contador = 0;
     private int nrofghosts = 6;
     private int pacsleft, score;
-    private int[] dx, dy;
-    private int[] ghostx, ghosty, ghostdx, ghostdy, ghostspeed;
+    private int[] dx, dy,ContadorFinal,Contador2;
+    private int[] ghostx, ghosty, ghostdx, ghostdy, ghostspeed ,ComidaX,ComidaY,ComidaES;
+
 
     private Image fantasma;
     private Image pacman1, pacman2up, pacman2left, pacman2right, pacman2down;
     private Image pacman3up, pacman3down, pacman3left, pacman3right;
     private Image pacman4up, pacman4down, pacman4left, pacman4right;
-    private Image Muerte1, Muerte2,Muerte3,Muerte4, Muerte5 ,Muerte6 ,Muerte7, Muerte8, Muerte9;
+    private Image Muerte1, Muerte2,Muerte3,Muerte4, Muerte5 ,Muerte6 ,Muerte7, Muerte8, Muerte9,Comida ,Vulnerable, Vulnerable2;
 
     private int pacmanx, pacmany, pacmandx, pacmandy;
     private int reqdx, reqdy, viewdx, viewdy;
@@ -109,6 +113,12 @@ public class tablero extends JPanel implements ActionListener {
         ghostspeed = new int[maxghosts];
         dx = new int[4];
         dy = new int[4];
+        ComidaX=new int[4];
+        ComidaY=new int[4];
+        ComidaES=new int[4];
+        Contador2=new int[maxghosts];
+        ContadorFinal=new int[maxghosts];
+
 
         timer = new Timer(40, this);
         timer.start();
@@ -148,6 +158,7 @@ public class tablero extends JPanel implements ActionListener {
         }
     }
 
+
     private void playGame(Graphics2D g2d) {
 
         if (dying) {
@@ -160,6 +171,7 @@ public class tablero extends JPanel implements ActionListener {
         } else {
 
             moverPacman();
+            dibujarFruta(g2d);
             dibujarPacman(g2d);
             moverFantasma(g2d);
             checkMaze();
@@ -301,13 +313,44 @@ public class tablero extends JPanel implements ActionListener {
 
             ghostx[i] = ghostx[i] + (ghostdx[i] * ghostspeed[i]);
             ghosty[i] = ghosty[i] + (ghostdy[i] * ghostspeed[i]);
+            if (Cfruta) {
+                Contador2[i]++;
+                if (Contador2[i] < 80) {
+                    g2d.drawImage(Vulnerable, ghostx[i] + 1, ghosty[i] + 1, this);
+                } else {
+                    if (ContadorFinal[i] == 20) {
+                        g2d.drawImage(Vulnerable2, ghostx[i] + 1, ghosty[i] + 1, this);
+                        ContadorFinal[i] = 0;
+                    } else {
+                        g2d.drawImage(Vulnerable, ghostx[i] + 1, ghosty[i] + 1, this);
+                        ContadorFinal[i]++;
+                    }
+                }
+                if (Contador2[i] >= 160) {
+                    Cfruta = false;
+                    for (int X = 0; X<=maxghosts; X++){
+                        Contador2[X] = 0;
+                        ContadorFinal[X] = 0;
+                    }
+                }
+            }
+
+            else {
             drawGhost(g2d, ghostx[i] + 1, ghosty[i] + 1);
+
+            }
 
             if (pacmanx > (ghostx[i] - 12) && pacmanx < (ghostx[i] + 12)
                     && pacmany > (ghosty[i] - 12) && pacmany < (ghosty[i] + 12)
                     && ingame) {
+                if (Cfruta==false){
+                dying = true;}
+                else{
+                    ghostx[i] = 7 * blocksize;
+                    ghosty[i]= 11 * blocksize;
+                    score+=50;
 
-                dying = true;
+                }
             }
         }
     }
@@ -361,6 +404,16 @@ public class tablero extends JPanel implements ActionListener {
         }
         pacmanx += pacmanspeed * pacmandx;
         pacmany += pacmanspeed * pacmandy;
+        for (int i=0 ;i<4;i++) {
+            if (pacmanx == ComidaX[i] && pacmany == ComidaY[i] && ComidaES[i]==1){
+                ComidaES[i]=0;
+                Cfruta = true;
+                for (int X = 0; X<maxghosts; X++){
+                    Contador2[X] = 0;
+                    ContadorFinal[X] = 0;
+                }
+            }
+        }
     }
 
     private void dibujarPacman(Graphics2D g2d) {
@@ -373,6 +426,13 @@ public class tablero extends JPanel implements ActionListener {
             Pacmanarriba(g2d);
         } else {
             Pacmanabajo(g2d);
+        }
+    }
+    private void dibujarFruta(Graphics2D g2d) {
+        for (int i = 0; i < 4; i++) {
+            if (ComidaES[i] == 1) {
+                g2d.drawImage(Comida, ComidaX[i], ComidaY[i], this);
+            }
         }
     }
 
@@ -565,6 +625,19 @@ public class tablero extends JPanel implements ActionListener {
             ghostspeed[i] = validspeeds[random];
         }
 
+       ComidaX[0]=1* blocksize;
+       ComidaY[0]=1 * blocksize;
+       ComidaES[0]=1;
+       ComidaX[1]=13 * blocksize;
+       ComidaY[1]=1 * blocksize;
+        ComidaES[1]=1;
+       ComidaX[2]=1 * blocksize;
+       ComidaY[2]=13 * blocksize;
+        ComidaES[2]=1;
+       ComidaX[3]=13 * blocksize;
+       ComidaY[3]=13 * blocksize;
+        ComidaES[3]=1;
+
         pacmanx = 7 * blocksize;
         pacmany = 11 * blocksize;
         pacmandx = 0;
@@ -601,8 +674,9 @@ public class tablero extends JPanel implements ActionListener {
         Muerte7 = new ImageIcon(getClass().getResource("../imagenes/pacmanM7.png")).getImage();
         Muerte8 = new ImageIcon(getClass().getResource("../imagenes/pacmanM8.png")).getImage();
         Muerte9 = new ImageIcon(getClass().getResource("../imagenes/pacmanM9.png")).getImage();
-
-
+        Comida = new ImageIcon(getClass().getResource("../imagenes/Comida.png")).getImage();
+        Vulnerable = new ImageIcon(getClass().getResource("../imagenes/Vulnerable.png")).getImage();
+        Vulnerable2 = new ImageIcon(getClass().getResource("../imagenes/Vulnerable2.png")).getImage();
 
     }
 
