@@ -17,11 +17,11 @@ public class principioJuego {
         elegirModoJuegoButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-            JFrame elegir_juego = new JFrame("elegirjuego");
-            elegir_juego.setContentPane(new elegirjuego().panel1);
-            elegir_juego.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            elegir_juego.pack();
-            elegir_juego.setVisible(true);
+                JFrame elegir_juego = new JFrame("elegirjuego");
+                elegir_juego.setContentPane(new elegirjuego().panel1);
+                elegir_juego.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                elegir_juego.pack();
+                elegir_juego.setVisible(true);
             }
         });
         verPuntuacionesButton.addActionListener(new ActionListener() {

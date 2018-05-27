@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import javax.swing.JFrame;
 import javax.swing.Timer;
+import javax.swing.Renderer;
 
 
 
@@ -206,11 +207,11 @@ public void repaint(Graphics g)
     }
 }
 
-public static void main(String[] args)
+/*public static void main(String[] args)
 {
     flappyBird = new FlappyBird();
 }
-@Override
+@Override*/
 
 public void mouseClicked(MouseEvent e)
 {

@@ -1,5 +1,7 @@
 package pacman;
 
+import sun.font.TrueTypeFont;
+
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -14,6 +16,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.lang.Thread;
 
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
@@ -30,6 +33,7 @@ public class tablero extends JPanel implements ActionListener {
 
     private boolean ingame = false;
     private boolean dying = false;
+    private boolean Cfruta = false;
 
     private final int blocksize = 24;
     private final int nrofblocks = 15;
@@ -40,17 +44,20 @@ public class tablero extends JPanel implements ActionListener {
     private final int pacmanspeed = 6;
 
     private int pacanimcount = pacanimdelay;
-    private int pacanimdir = 1;
+    private int pacanimdir = 1 ;
     private int pacmananimpos = 0;
+    private int Contador = 0;
     private int nrofghosts = 6;
     private int pacsleft, score;
-    private int[] dx, dy;
-    private int[] ghostx, ghosty, ghostdx, ghostdy, ghostspeed;
+    private int[] dx, dy,ContadorFinal,Contador2;
+    private int[] ghostx, ghosty, ghostdx, ghostdy, ghostspeed ,ComidaX,ComidaY,ComidaES;
+
 
     private Image fantasma;
     private Image pacman1, pacman2up, pacman2left, pacman2right, pacman2down;
     private Image pacman3up, pacman3down, pacman3left, pacman3right;
     private Image pacman4up, pacman4down, pacman4left, pacman4right;
+    private Image Muerte1, Muerte2,Muerte3,Muerte4, Muerte5 ,Muerte6 ,Muerte7, Muerte8, Muerte9,Comida ,Vulnerable, Vulnerable2;
 
     private int pacmanx, pacmany, pacmandx, pacmandy;
     private int reqdx, reqdy, viewdx, viewdy;
@@ -71,9 +78,9 @@ public class tablero extends JPanel implements ActionListener {
             21, 21, 17, 16, 16, 20, 17, 16, 20, 17, 16, 16, 20, 21, 21,
             17, 20, 25, 24, 24, 20, 17, 16, 20, 17, 24, 24, 28, 17, 20,
             25, 24, 26, 26, 26, 24, 24, 24, 24, 24, 26, 26, 26, 24, 28
-    };    
+    };
 
-    
+
     private final int validspeeds[] = {1, 2, 3, 4, 6, 8};
     private final int maximavelocidad = 6;
 
@@ -106,6 +113,12 @@ public class tablero extends JPanel implements ActionListener {
         ghostspeed = new int[maxghosts];
         dx = new int[4];
         dy = new int[4];
+        ComidaX=new int[4];
+        ComidaY=new int[4];
+        ComidaES=new int[4];
+        Contador2=new int[maxghosts];
+        ContadorFinal=new int[maxghosts];
+
 
         timer = new Timer(40, this);
         timer.start();
@@ -121,26 +134,44 @@ public class tablero extends JPanel implements ActionListener {
     private void doAnim() {
 
         pacanimcount--;
-
+        if (pacmananimpos>=4 || pacmananimpos<0)
+        {
+            pacmananimpos=0;
+            pacanimdir = 1;
+        }
         if (pacanimcount <= 0) {
             pacanimcount = pacanimdelay;
-            pacmananimpos = pacmananimpos + pacanimdir;
+            pacmananimpos += pacanimdir;
 
             if (pacmananimpos == (pacmananimcount - 1) || pacmananimpos == 0) {
                 pacanimdir = -pacanimdir;
             }
         }
     }
+    private void doAnimM() {
+
+        pacanimcount--;
+
+        if (pacanimcount <= 0) {
+            pacanimcount = pacanimdelay;
+            pacmananimpos += pacanimdir;
+        }
+    }
+
 
     private void playGame(Graphics2D g2d) {
 
         if (dying) {
 
-            Muerte();
+            Muerte(g2d);
+            pacmananimpos=0;
+            pacanimdir = 1;
+
 
         } else {
 
             moverPacman();
+            dibujarFruta(g2d);
             dibujarPacman(g2d);
             moverFantasma(g2d);
             checkMaze();
@@ -208,14 +239,15 @@ public class tablero extends JPanel implements ActionListener {
         }
     }
 
-    private void Muerte() {//murio
+    private void Muerte(Graphics2D g2d) {//murio
 
         pacsleft--;
 
         if (pacsleft == 0) {
             ingame = false;
+            pacmananimpos=0;
+            pacanimcount=3;
         }
-
         continuarnivel();
     }
 
@@ -281,13 +313,44 @@ public class tablero extends JPanel implements ActionListener {
 
             ghostx[i] = ghostx[i] + (ghostdx[i] * ghostspeed[i]);
             ghosty[i] = ghosty[i] + (ghostdy[i] * ghostspeed[i]);
-            drawGhost(g2d, ghostx[i] + 1, ghosty[i] + 1);
+            if (Cfruta) {
+                Contador2[i]++;
+                if (Contador2[i] < 80) {
+                    g2d.drawImage(Vulnerable, ghostx[i] + 1, ghosty[i] + 1, this);
+                } else {
+                    if (ContadorFinal[i] == 20) {
+                        g2d.drawImage(Vulnerable2, ghostx[i] + 1, ghosty[i] + 1, this);
+                        ContadorFinal[i] = 0;
+                    } else {
+                        g2d.drawImage(Vulnerable, ghostx[i] + 1, ghosty[i] + 1, this);
+                        ContadorFinal[i]++;
+                    }
+                }
+                if (Contador2[i] >= 160) {
+                    Cfruta = false;
+                    for (int X = 0; X<=maxghosts; X++){
+                        Contador2[X] = 0;
+                        ContadorFinal[X] = 0;
+                    }
+                }
+            }
+
+            else {
+                drawGhost(g2d, ghostx[i] + 1, ghosty[i] + 1);
+
+            }
 
             if (pacmanx > (ghostx[i] - 12) && pacmanx < (ghostx[i] + 12)
                     && pacmany > (ghosty[i] - 12) && pacmany < (ghosty[i] + 12)
                     && ingame) {
+                if (Cfruta==false){
+                    dying = true;}
+                else{
+                    ghostx[i] = 7 * blocksize;
+                    ghosty[i]= 11 * blocksize;
+                    score+=50;
 
-                dying = true;
+                }
             }
         }
     }
@@ -339,8 +402,18 @@ public class tablero extends JPanel implements ActionListener {
                 pacmandy = 0;
             }
         }
-        pacmanx += + pacmanspeed * pacmandx;
-        pacmany += + pacmanspeed * pacmandy;
+        pacmanx += pacmanspeed * pacmandx;
+        pacmany += pacmanspeed * pacmandy;
+        for (int i=0 ;i<4;i++) {
+            if (pacmanx == ComidaX[i] && pacmany == ComidaY[i] && ComidaES[i]==1){
+                ComidaES[i]=0;
+                Cfruta = true;
+                for (int X = 0; X<maxghosts; X++){
+                    Contador2[X] = 0;
+                    ContadorFinal[X] = 0;
+                }
+            }
+        }
     }
 
     private void dibujarPacman(Graphics2D g2d) {
@@ -355,9 +428,15 @@ public class tablero extends JPanel implements ActionListener {
             Pacmanabajo(g2d);
         }
     }
+    private void dibujarFruta(Graphics2D g2d) {
+        for (int i = 0; i < 4; i++) {
+            if (ComidaES[i] == 1) {
+                g2d.drawImage(Comida, ComidaX[i], ComidaY[i], this);
+            }
+        }
+    }
 
     private void Pacmanarriba(Graphics2D g2d) {
-
         switch (pacmananimpos) {
             case 1:
                 g2d.drawImage(pacman2up, pacmanx + 1, pacmany + 1, this);
@@ -374,7 +453,6 @@ public class tablero extends JPanel implements ActionListener {
                 break;
         }
     }
-
     private void Pacmanabajo(Graphics2D g2d) {
 
         switch (pacmananimpos) {
@@ -467,10 +545,48 @@ public class tablero extends JPanel implements ActionListener {
             }
         }
     }
+    private void AnimacionMuerte (Graphics2D g2d){
+
+        switch (pacmananimpos) {
+            case 1:
+                g2d.drawImage(pacman2up, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 2:
+                g2d.drawImage(pacman3up, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 3:
+                g2d.drawImage(Muerte1, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 4:
+                g2d.drawImage(Muerte2, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 5:
+                g2d.drawImage(Muerte3, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 6:
+                g2d.drawImage(Muerte4, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 7:
+                g2d.drawImage(Muerte5, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 8:
+                g2d.drawImage(Muerte6, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 9:
+                g2d.drawImage(Muerte7, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 10:
+                g2d.drawImage(Muerte8, pacmanx + 1, pacmany + 1, this);
+                break;
+            case 11:
+                g2d.drawImage(Muerte9, pacmanx + 1, pacmany + 1, this);
+                break;}
+
+    }
 
     private void iniciarjuego() {
 
-        pacsleft = 3;
+        pacsleft = 1;
         score = 0;
         initLevel();
         nrofghosts = 4;
@@ -509,6 +625,19 @@ public class tablero extends JPanel implements ActionListener {
             ghostspeed[i] = validspeeds[random];
         }
 
+        ComidaX[0]=1* blocksize;
+        ComidaY[0]=1 * blocksize;
+        ComidaES[0]=1;
+        ComidaX[1]=13 * blocksize;
+        ComidaY[1]=1 * blocksize;
+        ComidaES[1]=1;
+        ComidaX[2]=1 * blocksize;
+        ComidaY[2]=13 * blocksize;
+        ComidaES[2]=1;
+        ComidaX[3]=13 * blocksize;
+        ComidaY[3]=13 * blocksize;
+        ComidaES[3]=1;
+
         pacmanx = 7 * blocksize;
         pacmany = 11 * blocksize;
         pacmandx = 0;
@@ -518,6 +647,11 @@ public class tablero extends JPanel implements ActionListener {
         viewdx = -1;
         viewdy = 0;
         dying = false;
+        Cfruta=false;
+        for (int X = 0; X<maxghosts; X++){
+            Contador2[X] = 0;
+            ContadorFinal[X] = 0;
+        }
     }
 
     private void CargarImagenes() {
@@ -536,6 +670,18 @@ public class tablero extends JPanel implements ActionListener {
         pacman2right = new ImageIcon(getClass().getResource("../imagenes/right1.png")).getImage();
         pacman3right = new ImageIcon(getClass().getResource("../imagenes/right2.png")).getImage();
         pacman4right = new ImageIcon(getClass().getResource("../imagenes/right3.png")).getImage();
+        Muerte1 = new ImageIcon(getClass().getResource("../imagenes/pacmanM1.png")).getImage();
+        Muerte2 = new ImageIcon(getClass().getResource("../imagenes/pacmanM2.png")).getImage();
+        Muerte3 = new ImageIcon(getClass().getResource("../imagenes/pacmanM3.png")).getImage();
+        Muerte4 = new ImageIcon(getClass().getResource("../imagenes/pacmanM4.png")).getImage();
+        Muerte5 = new ImageIcon(getClass().getResource("../imagenes/pacmanM5.png")).getImage();
+        Muerte6 = new ImageIcon(getClass().getResource("../imagenes/pacmanM6.png")).getImage();
+        Muerte7 = new ImageIcon(getClass().getResource("../imagenes/pacmanM7.png")).getImage();
+        Muerte8 = new ImageIcon(getClass().getResource("../imagenes/pacmanM8.png")).getImage();
+        Muerte9 = new ImageIcon(getClass().getResource("../imagenes/pacmanM9.png")).getImage();
+        Comida = new ImageIcon(getClass().getResource("../imagenes/Comida.png")).getImage();
+        Vulnerable = new ImageIcon(getClass().getResource("../imagenes/Vulnerable.png")).getImage();
+        Vulnerable2 = new ImageIcon(getClass().getResource("../imagenes/Vulnerable2.png")).getImage();
 
     }
 
@@ -555,12 +701,26 @@ public class tablero extends JPanel implements ActionListener {
 
         drawMaze(g2d);
         dibujarpuntuacion(g2d);
-        doAnim();
+        if (ingame) {
+            doAnim();
+        }
 
         if (ingame) {
+            if (pacmananimpos>5)
+            {
+                pacmananimpos=0;
+                pacanimdir=1;
+            }
             playGame(g2d);
+            Contador++;
         } else {
-            showIntroScreen(g2d);
+
+            if (pacmananimpos<12 && Contador!=0){
+                doAnimM();
+                AnimacionMuerte(g2d);}
+            else {
+                showIntroScreen(g2d);
+            }
         }
 
         g2d.drawImage(ii, 5, 5, this);
@@ -572,7 +732,7 @@ public class tablero extends JPanel implements ActionListener {
 
         @Override
         public void keyPressed(KeyEvent e) {
-        //configuración del teclado
+            //configuración del teclado
             int key = e.getKeyCode();
 
             if (ingame) {
