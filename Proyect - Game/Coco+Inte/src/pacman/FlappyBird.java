@@ -42,6 +42,7 @@ public class  FlappyBird implements ActionListener, MouseListener, KeyListener
     jframe.setSize(WIDTH, HEIGHT); //tamaño de la ventana
     jframe.addMouseListener(this);
     jframe.addKeyListener(this);
+    jframe.setLocationRelativeTo(null);
     jframe.setResizable(false); //junto con la clase render lo utiliza para que la tamaño de la ventana no se pueda modificar
     jframe.setVisible(true); //para que aparezca la pantalla
     bird = new Rectangle(WIDTH / 2 - 10, HEIGHT / 2 - 10, 20, 20); //tamaño de flappy

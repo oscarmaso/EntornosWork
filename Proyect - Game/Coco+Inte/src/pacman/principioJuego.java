@@ -17,20 +17,24 @@ public class principioJuego {
         elegirModoJuegoButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+                panel1.setVisible(false);
                 JFrame elegir_juego = new JFrame("elegirjuego");
                 elegir_juego.setContentPane(new elegirjuego().panel1);
                 elegir_juego.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 elegir_juego.pack();
+                elegir_juego.setLocationRelativeTo(null);
                 elegir_juego.setVisible(true);
             }
         });
         verPuntuacionesButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+                panel1.setVisible(false);
                 JFrame puntuaciones = new JFrame("puntuaciones");
                 puntuaciones.setContentPane(new puntuaciones().panel1);
                 puntuaciones.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 puntuaciones.pack();
+                puntuaciones.setLocationRelativeTo(null);
                 puntuaciones.setVisible(true);
             }
         });
@@ -47,6 +51,7 @@ public class principioJuego {
         frame.setContentPane(new principioJuego().panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
 }

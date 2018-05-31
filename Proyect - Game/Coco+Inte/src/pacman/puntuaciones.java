@@ -15,12 +15,12 @@ public class puntuaciones {
         volverButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                JFrame puntuaciones = new JFrame("puntuaciones");
-                puntuaciones.setVisible(false);
+                panel1.setVisible(false);
                 JFrame principio = new JFrame("principioJuego");
                 principio.setContentPane(new principioJuego().panel1);
                 principio.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 principio.pack();
+                principio.setLocationRelativeTo(null);
                 principio.setVisible(true);
             }
         });
