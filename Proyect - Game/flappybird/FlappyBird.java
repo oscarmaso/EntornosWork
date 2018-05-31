@@ -194,11 +194,11 @@ public void repaint(Graphics g)
     g.setFont(new Font("Arial", 1, 100));
     if (!started)
     {
-        g.drawString("Click to start!", 75, HEIGHT / 2 - 50);
+        g.drawString("Pulsa para comenzar", 75, HEIGHT / 2 - 50);
     }
     if (gameOver)
     {
-        g.drawString("Game Over!", 100, HEIGHT / 2 - 50);
+        g.drawString("FALLASTE", 100, HEIGHT / 2 - 50);
     }
     if (!gameOver && started)
     {
