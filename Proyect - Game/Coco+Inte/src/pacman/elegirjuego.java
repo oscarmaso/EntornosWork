@@ -19,7 +19,7 @@ public class elegirjuego {
         flappyBirdButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                panel1.setVisible(false);
+                SwingUtilities.getWindowAncestor(panel1).setVisible(false);
                 Thread thread = new Thread(new Runnable() {
                     @Override
                     public void run() {
@@ -32,7 +32,7 @@ public class elegirjuego {
         pacmanButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                panel1.setVisible(false);
+                SwingUtilities.getWindowAncestor(panel1).setVisible(false);
                 JFrame pacman = new Pacman();
                 pacman.setVisible(true);
             }
@@ -40,7 +40,7 @@ public class elegirjuego {
         contrarrelojButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                panel1.setVisible(false);
+                SwingUtilities.getWindowAncestor(panel1).setVisible(false);
                 JFrame pacman = new Pacman();
                 pacman.setVisible(true);
             }
@@ -49,7 +49,7 @@ public class elegirjuego {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 JFrame principio = new JFrame("principioJuego");
-                panel1.setVisible(false);
+                SwingUtilities.getWindowAncestor(panel1).setVisible(false);
                 principio.setContentPane(new principioJuego().panel1);
                 principio.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 principio.pack();

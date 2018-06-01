@@ -17,7 +17,7 @@ public class principioJuego {
         elegirModoJuegoButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                panel1.setVisible(false);
+                SwingUtilities.getWindowAncestor(panel1).setVisible(false);
                 JFrame elegir_juego = new JFrame("elegirjuego");
                 elegir_juego.setContentPane(new elegirjuego().panel1);
                 elegir_juego.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -29,7 +29,7 @@ public class principioJuego {
         verPuntuacionesButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                panel1.setVisible(false);
+                SwingUtilities.getWindowAncestor(panel1).setVisible(false);
                 JFrame puntuaciones = new JFrame("puntuaciones");
                 puntuaciones.setContentPane(new puntuaciones().panel1);
                 puntuaciones.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
