@@ -13,13 +13,19 @@ public class finaljuego {
         menuPrincipalButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-
+                SwingUtilities.getWindowAncestor(panel1).setVisible(false);
+                JFrame principioJuego = new JFrame("principioJuego");
+                principioJuego.setContentPane(new principioJuego().panel1);
+                principioJuego.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                principioJuego.pack();
+                principioJuego.setLocationRelativeTo(null);
+                principioJuego.setVisible(true);
             }
         });
         salirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-
+                System.exit(0);
             }
         });
     }

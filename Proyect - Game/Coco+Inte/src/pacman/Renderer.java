@@ -1,7 +1,7 @@
 package pacman;
 
 
-//este documento define los graficos del juego 
+//este documento define los graficos del juego
 
 import java.awt.Graphics;
 import javax.swing.*;
@@ -22,7 +22,7 @@ public class Renderer extends JPanel
     {
         super.paintComponent(g);
         flappyBird.repaint(g);
-        
+
     }
 
 }
