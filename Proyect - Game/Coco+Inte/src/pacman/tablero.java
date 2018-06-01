@@ -245,13 +245,8 @@ public class tablero extends JPanel implements ActionListener {
             ingame = false;
             pacmananimpos=0;
             pacanimcount=3;
-            /*SwingUtilities.getWindowAncestor().setVisible(false);
-            JFrame finaljuego = new JFrame("finaljuego");
-            finaljuego.setContentPane(new elegirjuego().panel1);
-            finaljuego.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            finaljuego.pack();
-            finaljuego.setLocationRelativeTo(null);
-            finaljuego.setVisible(true);*/
+
+
         }
 
         continuarnivel();
@@ -586,6 +581,13 @@ public class tablero extends JPanel implements ActionListener {
                 break;
             case 11:
                 g2d.drawImage(Muerte9, pacmanx + 1, pacmany + 1, this);
+                SwingUtilities.getWindowAncestor(this).setVisible(false);
+                JFrame finaljuego = new JFrame("finaljuego");
+                finaljuego.setContentPane(new finaljuego().panel1);
+                finaljuego.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                finaljuego.pack();
+                finaljuego.setLocationRelativeTo(null);
+                finaljuego.setVisible(true);
                 break;}
 
     }
@@ -723,7 +725,8 @@ public class tablero extends JPanel implements ActionListener {
 
             if (pacmananimpos<12 && Contador!=0){
                 doAnimM();
-                AnimacionMuerte(g2d);}
+                AnimacionMuerte(g2d);
+                }
             else {
                 showIntroScreen(g2d);
             }

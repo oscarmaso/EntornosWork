@@ -12,9 +12,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.ArrayList;
 import java.util.Random;
-import javax.swing.JFrame;
-import javax.swing.Timer;
-
+import javax.swing.*;
 
 
 public class  FlappyBird implements ActionListener, MouseListener, KeyListener
@@ -171,6 +169,7 @@ public void actionPerformed(ActionEvent e)
         }
     }
     renderer.repaint(); //repinta los elementos
+
 }
 
 public void repaint(Graphics g)
@@ -199,6 +198,13 @@ public void repaint(Graphics g)
     if (gameOver)
     {
         g.drawString("Game Over!", 100, HEIGHT / 2 - 50);
+        SwingUtilities.getWindowAncestor(renderer).setVisible(false);
+        JFrame finaljuego = new JFrame("finaljuego");
+        finaljuego.setContentPane(new finaljuego().panel1);
+        finaljuego.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        finaljuego.pack();
+        finaljuego.setLocationRelativeTo(null);
+        finaljuego.setVisible(true);
     }
     if (!gameOver && started)
     {

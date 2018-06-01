@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class finaljuego {
-    private JPanel panel1;
+    public JPanel panel1;
     private JButton menuPrincipalButton;
     private JButton salirButton;
 
