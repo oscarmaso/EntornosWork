@@ -10,18 +10,20 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.awt.image.ImageObserver;
 import java.util.ArrayList;
 import java.util.Random;
-import javax.swing.JFrame;
-import javax.swing.Timer;
+import javax.swing.*;
+import java.awt.Graphics2D;
+import java.awt.Image;
 
 
-
-public class FlappyBird implements ActionListener, MouseListener, KeyListener
+public class  FlappyBird implements ActionListener, MouseListener, KeyListener
 {
     
     //variables
-    
+    private Image Flappy;
+    private int PajaroX,PajaroY;
     public static FlappyBird flappyBird;
     public final int WIDTH = 800, HEIGHT = 800; //tamaño de la ventana
     public Renderer renderer; //
@@ -46,6 +48,9 @@ public FlappyBird() //el main llama a esta para que se ejecute
     jframe.setResizable(false); //junto con la clase render lo utiliza para que la tamaño de la ventana no se pueda modificar
     jframe.setVisible(true); //para que aparezca la pantalla
     bird = new Rectangle(WIDTH / 2 - 10, HEIGHT / 2 - 10, 20, 20); //tamaño de flappy
+    Flappy =  new ImageIcon(getClass().getResource("../imagenes/flapy.gif")).getImage();
+    PajaroX=bird.x;
+    PajaroY=bird.y;
     columns = new ArrayList<Rectangle>(); //tuberias
     addColumn(true);
     addColumn(true);
@@ -146,6 +151,7 @@ public void actionPerformed(ActionEvent e)
                 if (bird.x <= column.x)
                 {
                     bird.x = column.x - bird.width;
+
                 }
                 else
                 {
@@ -183,9 +189,9 @@ public void repaint(Graphics g)
     
     g.setColor(Color.green);//color franjas de suelo
     g.fillRect(0, HEIGHT - 120, WIDTH, 20);//grosor de la primera franja del suelo
-    
-    g.setColor(Color.red);//color del flappy
-    g.fillRect(bird.x, bird.y, bird.width, bird.height);//tamaño del cuadrado que representa un flappy
+    g.drawImage(Flappy, bird.x , bird.y,renderer);
+   // g.setColor(Color.red);//color del flappy
+    // g.fillRect(bird.x, bird.y, bird.width, bird.height);//tamaño del cuadrado que representa un flappy
     for (Rectangle column : columns)
     {
         paintColumn(g, column);
@@ -194,11 +200,11 @@ public void repaint(Graphics g)
     g.setFont(new Font("Arial", 1, 100));
     if (!started)
     {
-        g.drawString("Pulsa para comenzar", 75, HEIGHT / 2 - 50);
+        g.drawString("Click to start!", 75, HEIGHT / 2 - 50);
     }
     if (gameOver)
     {
-        g.drawString("FALLASTE", 100, HEIGHT / 2 - 50);
+        g.drawString("Game Over!", 100, HEIGHT / 2 - 50);
     }
     if (!gameOver && started)
     {

@@ -5,6 +5,7 @@ package flappyBird;
 
 import java.awt.Graphics;
 import javax.swing.JPanel;
+import java.awt.Graphics2D;
 
 public class Renderer extends JPanel
 {
@@ -17,7 +18,6 @@ public class Renderer extends JPanel
     {
         super.paintComponent(g);
         FlappyBird.flappyBird.repaint(g);
-        
     }
 
 }
