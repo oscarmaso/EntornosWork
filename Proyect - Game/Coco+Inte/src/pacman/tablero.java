@@ -18,9 +18,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.lang.Thread;
 
-import javax.swing.ImageIcon;
-import javax.swing.JPanel;
-import javax.swing.Timer;
+import javax.swing.*;
 
 public class tablero extends JPanel implements ActionListener {
 
@@ -247,7 +245,15 @@ public class tablero extends JPanel implements ActionListener {
             ingame = false;
             pacmananimpos=0;
             pacanimcount=3;
+            /*SwingUtilities.getWindowAncestor().setVisible(false);
+            JFrame finaljuego = new JFrame("finaljuego");
+            finaljuego.setContentPane(new elegirjuego().panel1);
+            finaljuego.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            finaljuego.pack();
+            finaljuego.setLocationRelativeTo(null);
+            finaljuego.setVisible(true);*/
         }
+
         continuarnivel();
     }
 
