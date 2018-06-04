@@ -30,8 +30,8 @@ public class principioJuego {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 SwingUtilities.getWindowAncestor(panel1).setVisible(false);
-                JFrame puntuaciones = new JFrame("puntuaciones");
-                puntuaciones.setContentPane(new puntuaciones().panel1);
+                JFrame puntuaciones = new JFrame("nuevaspuntuaciones");
+                puntuaciones.setContentPane(new nuevapuntuaciones().panel1);
                 puntuaciones.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 puntuaciones.pack();
                 puntuaciones.setLocationRelativeTo(null);
