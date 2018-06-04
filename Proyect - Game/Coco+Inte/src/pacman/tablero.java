@@ -664,32 +664,32 @@ public class tablero extends JPanel implements ActionListener {
 
     private void CargarImagenes() {
 
-        fantasma = new ImageIcon(getClass().getResource("../imagenes/ghost.png")).getImage();
-        pacman1 = new ImageIcon(getClass().getResource("../imagenes/pacman.png")).getImage();
-        pacman2up = new ImageIcon(getClass().getResource("../imagenes/up1.png")).getImage();
-        pacman3up = new ImageIcon(getClass().getResource("../imagenes/up2.png")).getImage();
-        pacman4up = new ImageIcon(getClass().getResource("../imagenes/up3.png")).getImage();
-        pacman2down = new ImageIcon(getClass().getResource("../imagenes/down1.png")).getImage();
-        pacman3down = new ImageIcon(getClass().getResource("../imagenes/down2.png")).getImage();
-        pacman4down = new ImageIcon(getClass().getResource("../imagenes/down3.png")).getImage();
-        pacman2left = new ImageIcon(getClass().getResource("../imagenes/left1.png")).getImage();
-        pacman3left = new ImageIcon(getClass().getResource("../imagenes/left2.png")).getImage();
-        pacman4left = new ImageIcon(getClass().getResource("../imagenes/left3.png")).getImage();
-        pacman2right = new ImageIcon(getClass().getResource("../imagenes/right1.png")).getImage();
-        pacman3right = new ImageIcon(getClass().getResource("../imagenes/right2.png")).getImage();
-        pacman4right = new ImageIcon(getClass().getResource("../imagenes/right3.png")).getImage();
-        Muerte1 = new ImageIcon(getClass().getResource("../imagenes/pacmanM1.png")).getImage();
-        Muerte2 = new ImageIcon(getClass().getResource("../imagenes/pacmanM2.png")).getImage();
-        Muerte3 = new ImageIcon(getClass().getResource("../imagenes/pacmanM3.png")).getImage();
-        Muerte4 = new ImageIcon(getClass().getResource("../imagenes/pacmanM4.png")).getImage();
-        Muerte5 = new ImageIcon(getClass().getResource("../imagenes/pacmanM5.png")).getImage();
-        Muerte6 = new ImageIcon(getClass().getResource("../imagenes/pacmanM6.png")).getImage();
-        Muerte7 = new ImageIcon(getClass().getResource("../imagenes/pacmanM7.png")).getImage();
-        Muerte8 = new ImageIcon(getClass().getResource("../imagenes/pacmanM8.png")).getImage();
-        Muerte9 = new ImageIcon(getClass().getResource("../imagenes/pacmanM9.png")).getImage();
-        Comida = new ImageIcon(getClass().getResource("../imagenes/Comida.png")).getImage();
-        Vulnerable = new ImageIcon(getClass().getResource("../imagenes/Vulnerable.png")).getImage();
-        Vulnerable2 = new ImageIcon(getClass().getResource("../imagenes/Vulnerable2.png")).getImage();
+        fantasma = new ImageIcon(getClass().getResource("/imagenes/ghost.png")).getImage();
+        pacman1 = new ImageIcon(getClass().getResource("/imagenes/pacman.png")).getImage();
+        pacman2up = new ImageIcon(getClass().getResource("/imagenes/up1.png")).getImage();
+        pacman3up = new ImageIcon(getClass().getResource("/imagenes/up2.png")).getImage();
+        pacman4up = new ImageIcon(getClass().getResource("/imagenes/up3.png")).getImage();
+        pacman2down = new ImageIcon(getClass().getResource("/imagenes/down1.png")).getImage();
+        pacman3down = new ImageIcon(getClass().getResource("/imagenes/down2.png")).getImage();
+        pacman4down = new ImageIcon(getClass().getResource("/imagenes/down3.png")).getImage();
+        pacman2left = new ImageIcon(getClass().getResource("/imagenes/left1.png")).getImage();
+        pacman3left = new ImageIcon(getClass().getResource("/imagenes/left2.png")).getImage();
+        pacman4left = new ImageIcon(getClass().getResource("/imagenes/left3.png")).getImage();
+        pacman2right = new ImageIcon(getClass().getResource("/imagenes/right1.png")).getImage();
+        pacman3right = new ImageIcon(getClass().getResource("/imagenes/right2.png")).getImage();
+        pacman4right = new ImageIcon(getClass().getResource("/imagenes/right3.png")).getImage();
+        Muerte1 = new ImageIcon(getClass().getResource("/imagenes/pacmanM1.png")).getImage();
+        Muerte2 = new ImageIcon(getClass().getResource("/imagenes/pacmanM2.png")).getImage();
+        Muerte3 = new ImageIcon(getClass().getResource("/imagenes/pacmanM3.png")).getImage();
+        Muerte4 = new ImageIcon(getClass().getResource("/imagenes/pacmanM4.png")).getImage();
+        Muerte5 = new ImageIcon(getClass().getResource("/imagenes/pacmanM5.png")).getImage();
+        Muerte6 = new ImageIcon(getClass().getResource("/imagenes/pacmanM6.png")).getImage();
+        Muerte7 = new ImageIcon(getClass().getResource("/imagenes/pacmanM7.png")).getImage();
+        Muerte8 = new ImageIcon(getClass().getResource("/imagenes/pacmanM8.png")).getImage();
+        Muerte9 = new ImageIcon(getClass().getResource("/imagenes/pacmanM9.png")).getImage();
+        Comida = new ImageIcon(getClass().getResource("/imagenes/Comida.png")).getImage();
+        Vulnerable = new ImageIcon(getClass().getResource("/imagenes/Vulnerable.png")).getImage();
+        Vulnerable2 = new ImageIcon(getClass().getResource("/imagenes/Vulnerable2.png")).getImage();
 
     }
 
