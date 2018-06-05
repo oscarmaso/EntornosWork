@@ -31,7 +31,7 @@
         </constraints>
         <properties>
           <background color="-12517601"/>
-          <font name="L M Mono Caps10"/>
+          <font size="36"/>
           <text value="Salir"/>
         </properties>
       </component>
@@ -43,11 +43,11 @@
         </constraints>
         <properties>
           <background color="-12517601"/>
-          <font name="L M Mono Caps10"/>
+          <font size="36"/>
           <text value="Volver"/>
         </properties>
       </component>
-      <component id="f8274" class="javax.swing.JTextArea" binding="textArea2" default-binding="true">
+      <component id="f8274" class="javax.swing.JTextArea" binding="RECORDTextArea" default-binding="true">
         <constraints>
           <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="50" height="50"/>
@@ -55,9 +55,11 @@
         </constraints>
         <properties>
           <background color="-131208"/>
+          <font size="36"/>
+          <text value="RECORD"/>
         </properties>
       </component>
-      <component id="8b30" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+      <component id="8b30" class="javax.swing.JTextArea" binding="PUNTUACIONESTextArea" default-binding="true">
         <constraints>
           <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="50" height="50"/>
@@ -65,6 +67,8 @@
         </constraints>
         <properties>
           <background color="-53447"/>
+          <font size="36"/>
+          <text value="PUNTUACIONES"/>
         </properties>
       </component>
     </children>
