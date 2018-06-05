@@ -8,6 +8,8 @@ public class nuevapuntuaciones {
     public JPanel panel1;
     private JButton salirButton;
     private JButton volverButton;
+    private JTextArea textArea1;
+    private JTextArea textArea2;
 
 
     public nuevapuntuaciones() {
