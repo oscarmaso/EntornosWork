@@ -37,7 +37,7 @@ public class nuevapuntuaciones {
         });
     }
 
-    public class LeeFichero {
+/*    public class LeeFichero {
 
         public static void main(String[] args) {
 
@@ -69,13 +69,13 @@ public class nuevapuntuaciones {
             }
         }
     }
-
-    public class EscribeFichero {
+*/
+  /*  public class EscribeFichero {
 
         public static void main(String[] args) {
 
 
-            /** FORMA 1 DE ESCRITURA **/
+            FORMA 1 DE ESCRITURA
             FileWriter fichero = null;
             try {
 
@@ -92,5 +92,5 @@ public class nuevapuntuaciones {
                 System.out.println("Mensaje de la excepción: " + ex.getMessage());
             }
         }
-    }
+    }*/
 }
